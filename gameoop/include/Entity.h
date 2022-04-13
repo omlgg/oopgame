@@ -11,7 +11,6 @@ private:
 
 public:
     string Name;
-    Entity();
     ~Entity();
     Entity(int hp=100,int atk=10,int def=10,int buf=0,int debuf=0,int lvl=1,int agi=1);
 

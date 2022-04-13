@@ -1,16 +1,5 @@
 #include "Entity.h"
 
-Entity::Entity()
-{
-    //ctor
-    health = 100;
-    atk = 10;
-    def = 10;
-    buf = 0;
-    debuf = 0;
-    level = 1;
-    agility = 1;
-}
 
 Entity::~Entity()
 {
@@ -35,4 +24,12 @@ void Entity::DecreaseHealth(int k)
 {
     if (health <= k) delete this;
     else health -= k;
+}
+int Entity::AttackPoint()
+{
+    return Entity::atk;
+}
+int Entity::DefensePoint()
+{
+    return Entity::def;
 }

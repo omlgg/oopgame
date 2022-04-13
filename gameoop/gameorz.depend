@@ -2,3 +2,32 @@
 1584205420 source:d:\study\hk2\oop\th\gameorz\main.cpp
 	<iostream>
 
+1649840158 source:c:\users\admin\documents\github\oopgame\gameoop\src\entity.cpp
+	"Entity.h"
+
+1649839744 c:\users\admin\documents\github\oopgame\gameoop\include\entity.h
+	<string>
+	<iostream>
+
+1649840080 source:c:\users\admin\documents\github\oopgame\gameoop\main.cpp
+	<bits/stdc++.h>
+	"Entity.h"
+	"Player.h"
+
+1649841719 c:\users\admin\documents\github\oopgame\gameoop\include\player.h
+	"Entity.h"
+	"Equipment.h"
+	<string>
+	<vector>
+
+1649839981 source:c:\users\admin\documents\github\oopgame\gameoop\src\player.cpp
+	"Player.h"
+
+1649841669 c:\users\admin\documents\github\oopgame\gameoop\include\equipment.h
+	<string>
+	<iostream>
+	"Player.h"
+
+1649840798 source:c:\users\admin\documents\github\oopgame\gameoop\src\equipment.cpp
+	"Equipment.h"
+
