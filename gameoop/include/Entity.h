@@ -13,7 +13,7 @@ public:
     string Name;
     Entity();
     ~Entity();
-    Entity(int hp,int atk,int def,int buf,int debuf,int lvl,int agi);
+    Entity(int hp=100,int atk=10,int def=10,int buf=0,int debuf=0,int lvl=1,int agi=1);
 
 
     void DecreaseHealth(int k);

@@ -15,9 +15,10 @@ Entity::Entity()
 Entity::~Entity()
 {
     //dtor
+    cout<<"burh burh lmao\n";
 }
 
-Entity::Entity(int hp,int atk,int def,int buf,int debuf,int lvl,int agi)
+Entity::Entity(int hp,int atk,int def,int buf,int debuf,int lvl,int agi )
 {
     //ctor
     this->health = hp;
@@ -32,6 +33,6 @@ Entity::Entity(int hp,int atk,int def,int buf,int debuf,int lvl,int agi)
 
 void Entity::DecreaseHealth(int k)
 {
-    if (health <= k) ~Entity();
+    if (health <= k) delete this;
     else health -= k;
 }
