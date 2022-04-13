@@ -6,8 +6,8 @@
 #include <vector>
 
 using namespace std;
-
-class Player : protected Entity
+class Equipment;
+class Player : public Entity
 {
     vector<Equipment> Slot;
     int MP, MPregen;

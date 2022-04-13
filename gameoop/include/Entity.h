@@ -6,7 +6,7 @@ using namespace std;
 
 class Entity
 {
-private:
+protected:
     int health,atk,def,buf,debuf,level,agility;
 
 public:

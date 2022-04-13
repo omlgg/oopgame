@@ -13,6 +13,7 @@ class Equipment
     friend class Player;
     public:
         Equipment();
+        Equipment(int bmp = 0,int batk =0 ,int bdef = 0,int bagi = 0);
         ~Equipment();
 
 };

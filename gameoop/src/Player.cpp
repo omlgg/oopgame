@@ -1,3 +1,4 @@
+#include "Entity.h"
 #include "Player.h"
 #include "Equipment.h"
 Player::Player()
@@ -16,9 +17,9 @@ void Player::Enter_Name()
 }
 void Player::Equip_Item(Equipment a)
 {
-    Player::atk += a.bonus_atk;
-    Player::def += a.bonus_def;
-    Player::agility += a.bonus_agi;
+    Player::Entity::atk += a.bonus_atk;
+    Player::Entity::def += a.bonus_def;
+    Player::Entity::agility += a.bonus_agi;
     Player::MP += a.bonus_mp;
     Player::Slot.push_back(a);
 
