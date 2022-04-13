@@ -3,7 +3,7 @@
 #include "Player.h"
 
 using namespace std;
-
+#define ATTACK(a,b) b->DecreaseHealth(a->AttackPoint() - b->DefensePoint())
 int main()
 {
     Player * lmao = new Player(100);
@@ -12,6 +12,6 @@ int main()
     lmao->Equip_Item(Excalibur);
     Player * burh = new Player(1000);
     burh->Enter_Name();
-    burh->DecreaseHealth(lmao->AttackPoint() - burh->DefensePoint());
+    ATTACK(lmao, burh);
     return 0;
 }

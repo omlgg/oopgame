@@ -1,7 +1,7 @@
 #ifndef ENTITY_H
 #define ENTITY_H
 #include <string>
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 class Entity

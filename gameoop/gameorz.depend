@@ -5,11 +5,11 @@
 1649843676 source:c:\users\admin\documents\github\oopgame\gameoop\src\entity.cpp
 	"Entity.h"
 
-1649843231 c:\users\admin\documents\github\oopgame\gameoop\include\entity.h
+1649867705 c:\users\admin\documents\github\oopgame\gameoop\include\entity.h
 	<string>
-	<iostream>
+	<bits/stdc++.h>
 
-1649843641 source:c:\users\admin\documents\github\oopgame\gameoop\main.cpp
+1649867531 source:c:\users\admin\documents\github\oopgame\gameoop\main.cpp
 	<bits/stdc++.h>
 	"Entity.h"
 	"Player.h"
@@ -25,11 +25,15 @@
 	"Player.h"
 	"Equipment.h"
 
-1649843806 c:\users\admin\documents\github\oopgame\gameoop\include\equipment.h
-	<string>
-	<iostream>
+1649867705 c:\users\admin\documents\github\oopgame\gameoop\include\equipment.h
+	<bits/stdc++.h>
 	"Player.h"
 
 1649843389 source:c:\users\admin\documents\github\oopgame\gameoop\src\equipment.cpp
 	"Equipment.h"
+
+1649867424 source:c:\users\admin\documents\github\oopgame\gameoop\src\item.cpp
+	"Item.h"
+
+1649867423 c:\users\admin\documents\github\oopgame\gameoop\include\item.h
 

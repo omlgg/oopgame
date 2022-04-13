@@ -1,7 +1,6 @@
 #ifndef EQUIPMENT_H
 #define EQUIPMENT_H
-#include <string>
-#include <iostream>
+#include <bits/stdc++.h>
 #include "Player.h"
 
 using namespace std;

@@ -35,8 +35,12 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Entity.h" />
+		<Unit filename="include/Equipment.h" />
+		<Unit filename="include/Player.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Entity.cpp" />
+		<Unit filename="src/Equipment.cpp" />
+		<Unit filename="src/Player.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
