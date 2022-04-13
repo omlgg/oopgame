@@ -4,7 +4,7 @@
 Entity::~Entity()
 {
     //dtor
-    cout<<"burh burh lmao\n";
+    cout<<Entity::Name<<" has been defeated!!!\n";
 }
 
 Entity::Entity(int hp,int atk,int def,int buf,int debuf,int lvl,int agi )
